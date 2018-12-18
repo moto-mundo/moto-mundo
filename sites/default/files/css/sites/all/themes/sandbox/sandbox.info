@@ -1,0 +1,27 @@
+name = Sandbox
+description = Sandbox theme for template.
+version = 0.2.1
+core = 6.x
+engine = phptemplate
+
+screenshot = screenshot.png
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+regions[intro] = Intro
+regions[highlight] = Highlight
+
+
+
+
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
+
+scripts[] = js/equalheights.js
+scripts[] = js/pxToEm.js
+scripts[] = js/ready.js
+scripts[] = js/swfobject.js
